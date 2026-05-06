@@ -1,0 +1,13 @@
+com\quiz\repository\AppRepositories.class
+com\quiz\model\DatabaseModels.class
+com\quiz\model\DatabaseModels$Question.class
+com\quiz\repository\AppRepositories$SubjectRepository.class
+com\quiz\model\DatabaseModels$AppUser.class
+com\quiz\model\DatabaseModels$Subject.class
+com\quiz\QuizBackendApplication.class
+com\quiz\repository\AppRepositories$QuizAttemptRepository.class
+com\quiz\model\DatabaseModels$QuizAttempt.class
+com\quiz\repository\AppRepositories$QuestionRepository.class
+com\quiz\repository\AppRepositories$QuizRepository.class
+com\quiz\model\DatabaseModels$Quiz.class
+com\quiz\repository\AppRepositories$UserRepository.class
