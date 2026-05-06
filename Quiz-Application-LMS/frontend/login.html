@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMS | Secure Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="auth-container">
+        <div id="login-section">
+            <h2 class="text-center">System Login</h2>
+            <p class="text-center">Enter your credentials to access the portal.</p>
+            
+            <div class="form-group">
+                <label>Username</label>
+                <input type="text" id="username" placeholder="e.g. hod_admin">
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" id="password" placeholder="••••••••">
+            </div>
+            
+            <button class="btn" onclick="login()">Authenticate</button>
+            <div id="login-error" class="alert alert-error text-center"></div>
+        </div>
+
+        <div id="reset-section" class="hidden">
+            <h2 class="text-center">Action Required</h2>
+            <p class="text-center">Your HOD/Teacher created this account. You must set a new secure password before continuing.</p>
+            
+            <div class="form-group">
+                <label>New Password</label>
+                <input type="password" id="new-password" placeholder="Enter new password">
+            </div>
+            
+            <button class="btn btn-success" onclick="changePassword()">Update Password</button>
+            <div id="reset-error" class="alert alert-error text-center"></div>
+        </div>
+    </div>
+
+    <script src="auth.js"></script>
+</body>
+</html>
